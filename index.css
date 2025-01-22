@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
@@ -14,6 +15,16 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
 }
 
 section {
